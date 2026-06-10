@@ -1,0 +1,69 @@
+prompt 1:
+Write a 2d graphics editor using * and _. Write functions to draw a circle, rectangle, line, and triangle. 
+You should be able to add objects to the picture, delete objects from the picture, and modify objects in the picture. 
+Use a 2d array of characters to store the picture. Write a function to display the picture. 
+i have a mini project on this topic explain what it is asking for
+
+prompt 2:
+
+#include<stdio.h> 
+//void delete_shape(); 
+//void put_shape(); 
+//void modify_shape(); 
+int main(){ 
+    char PAGE[40][40]; 
+    int i,j; 
+    for(i=0;i<40;i++){ 
+        for(j=0;j<40;j++){ 
+            PAGE[i][j]='_'; 
+        } 
+    } 
+    for(i=0;i<40;i++){ 
+        for(j=0;j<40;j++){ 
+            printf("%s",PAGE[i][j]); 
+        } 
+    } return 0; 
+} 
+its showing segmentation fault
+
+prompt 3:
+If my page is 40×80 what should be the size of the default shapes
+
+prompt 4:
+project.c: In function 'put_shape': 
+project.c:52:7: error: a label can only be part of a statement and a declaration is not a statement 
+int z,i,j; 
+this error is popping up
+
+prompt 5:
+how to draw a circle with the coordinates of the top most point of it should i use equation of circle?
+
+prompt 6:
+if i use for loop for 1000000 times its going in a loop how to terminate it after the frst try and redo it again or 
+should i use an alternative like while loop
+
+prompt 7:
+how to find the existing shape to delete an already made shape
+
+prompt 8:
+in modify shape am i suppose the change the size of shape or what
+
+prompt 9:
+what happens if two shapes overlap
+
+prompt 10:
+how to know if shape is going out of bounds
+
+prompt 11:
+\\codes\\
+check if code has any logical errors
+
+prompt 12:
+\\codes\\
+check codes for any other errors
+
+prompt 13:
+tell the line number where error is there
+
+prompt 14:
+check all the possible outcomes of the codes for any possible logical error
